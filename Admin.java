@@ -32,7 +32,7 @@ public class Admin extends User implements AdminMethods {
 		return courses;
 	}
 
-	// create a course
+	// create a course 
 	public Course create(String name, String ID, int max, int now, ArrayList<String> names, String instructor, int sec,
 			String loc) {
 		Course c = new Course(name, ID, max, now, names, instructor, sec, loc);
